@@ -1,0 +1,8 @@
+Facility id,Scope Id,Category,Sub Category,Fuel/Name,Heat Content,Co2 Factor,Co2 Unit,Ch4 Factor,Ch4 Unit,N2o Factor,N2o Unit,Biogenic,Ar4,Ar5,Unit,Chemical Name,Formula,Gas,Biofuel,Quantity,Co2 Equivalent,Date
+34234,Scope 1,Stationary Combustion,,Coal Coke,24.8,113.67,Kg,11,Gm,1.6,Gm,,114.4218,114.402,mmBtu,,,,,1,2837.66064,09-07-2021
+34234,,Purchased Electricity,Grid Region - Location Based,AKMS,1,0.238173642,,1.08862E-05,,1.81437E-06,,,0.23898648,0.238959264,kWh,,,,,1,0.238174455,09-09-2021
+34234,Scope 1,Stationary Combustion,Coal and Coke,Anthracite Coal,25.09,103.69,Kg,11,Gm,1.6,Gm,,104.4418,104.422,mmBtu,,,,,1,2620.444762,09-10-2021
+,Scope 2,Purchased Electricity,Test Test343431,Hello34342,1,324234,Kg,343,Gm,34,Gm,,,,ton-mile,,,,,1,324252.707,09-10-2021
+34234,Scope 1,Stationary Combustion,Other Fuels - Solid,Petroleum Coke (Solid),30,102.41,Kg,32,Gm,4.2,Gm,,104.4616,104.419,mmBtu,,,,,1,3133.848,09-14-2021
+34234,Scope 1,Stationary Combustion,Coal and Coke,Lignite Coal,14.21,97.72,Kg,11,Gm,1.6,Gm,,98.4718,98.452,mmBtu,,,,,1,1399.284278,09-15-2021
+454345,Scope 1,Stationary Combustion,Coal and Coke,Anthracite Coal,25.09,103.69,Kg,11,Gm,1.6,Gm,,104.4418,104.422,mmBtu,,,,,1,2620.444762,09-17-2021

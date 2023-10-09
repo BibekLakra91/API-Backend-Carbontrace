@@ -1,0 +1,37 @@
+{
+  "name": "greenhouse",
+  "version": "1.0.0",
+  "description": "A project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"No tests specified\"",
+    "start-dev": "nodemon app.js",
+    "start": "node app"
+  },
+  "author": "Greenhouse",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "aws-sdk": "^2.1028.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "node-ses": "^3.0.3",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.14",
+    "path": "^0.12.7",
+    "randomstring": "^1.2.1",
+    "time-stamp": "^2.2.0",
+    "uniqid": "^5.4.0",
+    "uuid": "^8.3.2"
+  }
+}

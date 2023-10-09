@@ -1,0 +1,33 @@
+version: '3.7'
+services:
+#  mongodb_container:
+#    image: mongo:latest
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME: root
+#      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+#    ports:
+#      - 27017:27017
+#    volumes:
+#      - mongodb_data_container:/data/db
+#      - ./greenhouse/:/Users/anuragjha/Downloads/Carbontrace - website/greenhouse/
+#
+#  mongoclient:
+#    image: mongoclient/mongoclient:latest
+#    container_name: mongoclient
+#    hostname: mongoclient
+#    depends_on:
+#      - mongodb_container
+#    ports:
+#      - 3300:3000
+#    volumes:
+#      - ./greenhouse/:/Users/anuragjha/Downloads/Carbontrace - website/greenhouse/
+
+  co2-api:
+    container_name: co2-api
+    build: .
+#    entrypoint: ["tail", "-f", "/dev/null" ]
+    entrypoint: ["yarn", "start"]
+    ports:
+      - "5001:5001"
+      #volumes:
+#  mongodb_data_container:
